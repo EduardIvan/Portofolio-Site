@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "AKAA,AAAA,eAAe,CAAC;EACZ,UAAU,EAAE,IAAI;CACnB;;AMFD,AAAA,eAAe,CAAC;EACZ,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "../../scss/main.scss",
+        "../../scss/components/_animations.scss",
+        "../../scss/components/_buttons.scss",
+        "../../scss/components/_mixins.scss",
+        "../../scss/components/_typography.scss",
+        "../../scss/sections/_faq.scss",
+        "../../scss/sections/_footer.scss",
+        "../../scss/sections/_getstarted.scss",
+        "../../scss/sections/_intro-section.scss",
+        "../../scss/sections/_lateestwork.scss",
+        "../../scss/sections/_myservices.scss",
+        "../../scss/sections/_navbar.scss",
+        "../../scss/sections/_skills.scss",
+        "../../scss/sections/_testimonials.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
