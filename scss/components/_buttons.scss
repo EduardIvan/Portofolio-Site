@@ -1,0 +1,36 @@
+
+
+
+.btn-rounded {
+    position: relative;
+    padding: 10px 45px 10px 15px;
+    font-weight: 600;
+    margin: 0;
+    border: 1px solid rgba(#fff, 0.6);
+    background: #fff;
+
+    span {
+        position: absolute;
+        background: #d63384;
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+        i {
+            color: #fff;
+            font-size: 13px;
+            line-height: 30px;
+        }
+    }
+
+    &:hover {
+        background: #6f42c1;
+
+        span {
+            background: rgba(#000, 0.6);
+        }
+    }
+}

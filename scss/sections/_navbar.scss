@@ -1,3 +1,14 @@
-.nav-background {
-    background: blue;
+.menu {
+    @include gradient;
+    
+    li {
+        padding: 0 15px;
+
+        a {
+            color: #fff !important;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
 }
+
