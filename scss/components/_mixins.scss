@@ -4,3 +4,13 @@
     background: linear-gradient(to right, rgba(#6f42c1,0.95), rgba(#d63384,0.95));
 
 }
+
+
+// Center 
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
