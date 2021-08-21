@@ -104,6 +104,19 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.display-3--title {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, right top, from(#6f42c1), to(#d63384));
+  background: linear-gradient(to right, #6f42c1, #d63384);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .border-right {
   border-right: 2px solid #595959;
   height: 100%;
@@ -152,6 +165,25 @@
           animation-delay: 1.5s;
 }
 
+.services {
+  position: relative;
+  padding: 12px 0;
+}
+
+.services__content {
+  padding: 12px;
+  margin-top: 70px;
+}
+
+.services__content .icon {
+  font-size: 30px;
+  color: #6f42c1;
+}
+
+.services__pic {
+  max-width: 100%;
+}
+
 .menu {
   background: -webkit-gradient(linear, left top, right top, from(rgba(111, 66, 193, 0.95)), to(rgba(214, 51, 132, 0.95)));
   background: linear-gradient(to right, rgba(111, 66, 193, 0.95), rgba(214, 51, 132, 0.95));
@@ -178,5 +210,68 @@
   padding: 6px;
   text-align: center;
   position: relative;
+}
+
+.row {
+  --bs-gutter-x: 0
+;
+}
+
+.carousel-item {
+  padding: 0 40px;
+  margin-top: 80px;
+}
+
+.testimonials {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(111, 66, 193, 0.95)), to(rgba(214, 51, 132, 0.95)));
+  background: linear-gradient(to right, rgba(111, 66, 193, 0.95), rgba(214, 51, 132, 0.95));
+}
+
+.testimonials__card {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 23px 23px;
+  border-radius: 8px;
+  height: auto;
+  text-align: center;
+}
+
+.testimonials__card i {
+  font-size: 19px;
+  color: #6f42c1;
+}
+
+.testimonials__card .ratings i {
+  color: #6f42c1;
+  font-size: 13px;
+}
+
+.testimonials__picture {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.testimonials__name {
+  padding: 45px;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+
+.testimonials__name h3 {
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+
+.testimonials__name p {
+  padding-bottom: 10px;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */

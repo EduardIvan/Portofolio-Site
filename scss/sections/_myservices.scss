@@ -1,0 +1,19 @@
+.services {
+    position: relative;
+    padding: 12px 0;
+
+    &__content {
+        padding: 12px;
+        margin-top: 70px;
+
+
+        .icon {
+            font-size: 30px;
+            color: #6f42c1;
+        }
+    }
+
+    &__pic {
+        max-width: 100%;
+    }
+}

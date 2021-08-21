@@ -1,0 +1,64 @@
+
+.row {
+    --bs-gutter-x: 0
+}
+
+.carousel-item {
+    padding: 0 40px;
+    margin-top: 80px;
+}
+
+.testimonials {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    @include gradient;
+
+    &__card {
+        background: rgba(#fff,0.8);
+        padding: 23px 23px;
+        border-radius: 8px;
+        height: auto;
+        
+        text-align: center;
+
+        i {
+            font-size: 19px;
+            color: #6f42c1;
+        }
+
+        .ratings {
+
+            i {
+                color: #6f42c1;
+                font-size: 13px;
+            }
+        }
+    }
+
+    &__picture {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    &__name {
+        padding: 45px;
+        margin-bottom: 12px;
+        text-align: center;
+        font-weight: 500;
+        color: #fff;
+
+        h3 {
+            padding-top: 10px;
+            text-transform: capitalize;
+        }
+
+        p {
+            padding-bottom: 10px;
+            text-transform: capitalize;
+        }
+    }
+}
