@@ -1,0 +1,31 @@
+
+.footer {
+    padding-top: 12px;
+    background-color: #292424;
+}
+
+.contact-box {
+    position: relative;
+
+    &__icon {
+        width: 45px;
+        stroke: #6f42c1;
+    }
+
+    &__info {
+        padding: 5px;
+        font-weight: 600;
+
+        &--title {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        &--subtitle {
+            color: #423d3d;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    }
+}

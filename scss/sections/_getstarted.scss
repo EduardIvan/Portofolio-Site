@@ -1,0 +1,40 @@
+
+
+.get-started {
+    padding: 45px 0;
+    background-color: #dfbf9f;
+
+
+    .gradient {
+        background: linear-gradient(to right, rgba(#6f42c1,0.95), rgba(#d63384,0.95));
+    }
+}
+
+
+.cta-info {
+    padding: 33px;
+    margin: 12px 0;
+
+    &__list {
+        position: relative;
+        display: block;
+        padding-left: 8px;
+        padding-top: 8px;
+        margin-bottom: 10px; 
+    }
+}
+
+.form {
+    padding: 33px;
+
+    button {
+        border: none;
+        color: #fff;
+
+        a {
+            color: #fff;
+            text-decoration: nonne;
+            text-transform: capitalize;
+        }
+    }
+}
